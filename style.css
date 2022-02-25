@@ -1,0 +1,69 @@
+/* Code related to the background image */
+html body {
+  background: url(images/lightBlueSky.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+/* styles the picture surrounding h1 element */
+header {
+  border: 3px solid black;
+  background: url(images/pyramid.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+div .header {
+  text-align: center;
+  width: auto;
+  margin: 200px 50px;
+  font-size: 50px;
+  font-family: Georgia, serif;
+}
+/* Centers text and styles text */
+main, footer {
+  text-align: center;
+}
+
+p, h2, h3, li { 
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+/* Below styles the (hr) to taper at the ends */
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/* Below constricts (p) elements to the middle of the page */
+.intro {
+  margin: auto;
+  width: 500px;
+  padding: 3px;
+}
+/* Syles the top banner */
+.top {
+  background: url(images/nightSky.jpeg);
+    background-size: cover;
+  background-hight: 100px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+/* Styles lettering at the top of the page */
+.tt{
+color: white;
+text-align: center;
+}
+/* Styles links */
+a:link {color: #77507C}
+a:visited {color: #77507C}
+a:hover {color: #FFC759 }
+a:active {color: #E8E9ED}
+
