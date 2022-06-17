@@ -1,2 +1,2 @@
 # Thinkful-Final
-Final for thinkful.com. This project is my first webpage.
+This is my first webpage detailing a little bit about myself. Built with html and css!
